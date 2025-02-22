@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+.page-content {
+  margin-top: 75px;
+  pad: 10px 40px;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+.header-font {
+  font-family: "Helvetica Neue", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.body-font {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.number-font {
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.gap5 {
+  gap: 5px;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+.gap15 {
+  gap: 15px;
+}
+
+.gap20 {
+  gap: 20px;
+}

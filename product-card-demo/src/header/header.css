@@ -1,0 +1,19 @@
+.page-header {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: calc(100vw - 160px);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    top: 0;
+}
+
+.page-header h3 {
+    font-family: "Helvetica Neue", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+}
